@@ -1,0 +1,662 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('/fonts/icomoon.eot');
+    src:  url('/fonts/icomoon.eot') format('embedded-opentype'),
+      url('/fonts/icomoon.ttf') format('truetype'),
+      url('/fonts/icomoon.woff') format('woff'),
+      url('/fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #ffff;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-Vector:before {
+    content: "\e900";
+  }
+  .icon-Vector-vk:before {
+    content: "\e901";
+  }
+  
+/* =================================================== */
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    color: #727272;
+    line-height: 26.25px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: #EEEFF1;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*="-case"] {
+    width: 100%;
+    margin: 0 auto;
+}
+/* =================================================== */
+
+.first_screen_menu {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    margin: 0;
+    padding-top: 70px;
+}
+
+.logo {
+    padding-top: 50px;
+
+}
+
+.menu_list li {
+    text-transform: uppercase;
+    display: inline;
+    padding-right: 42px;
+}
+
+.menu_list a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu_list a:hover {
+    color: #34547A;
+}
+
+/* =================================================== */
+
+.main {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_bar {
+    padding-top: 150px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.first_screen {
+    top: 240px;
+    left: calc(50% + 65px);
+    position: absolute;
+    width: 541px;
+    line-height: 26.25px;
+}
+
+.frame {
+    position: absolute;
+    right: calc(50% + 65px);
+    top: 290px;
+}
+
+.first_screen_btn,
+.form_button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    border: none;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+/* =================================================== */
+.about_me {
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    line-height: 26.25px;
+}
+
+
+/* =================================================== */
+
+.case_text {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 300px;
+    padding-left: 20px;
+}
+
+.case_text h3 {
+    font-size: 21px;
+}
+
+.case_text h3,
+.case_text p {
+    color: #ffff;
+    margin: 0;
+    padding:0;
+}
+
+/* =================================================== */
+
+.numbers_img {
+    padding-left:50px;
+}
+
+.numbers-case {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #34547A;
+}
+
+/* =================================================== */
+
+.skills {
+    display: flex;
+    margin: 0 auto;
+    width: 1180px;
+    justify-content: space-between;
+}
+
+.skill-list {
+    color: #727272;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 535px;
+    padding: 100px 75px 100px 15px;
+  }
+  
+.skill-list h2 {
+    color: black;
+}
+
+.skills_face {
+    padding: 100px 15px 100px 75px;
+}
+  
+.skill-item + .skill-item {
+    padding-top: 30px;
+}
+  
+.skill-title {
+    display: block;
+    margin-bottom: 20px;
+}
+  
+.skill-load {
+    position: relative;
+    height: 4px;
+    background: #C4C4C4;
+}
+  
+.skill-progress {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #34547A;
+}
+
+/* =================================================== */
+
+.video_section-case {
+    height: 1000px;
+    background-color: #EEEFF1;
+    text-align: center;
+}
+
+.video_title {
+    padding: 0;
+    margin: 0 auto;
+    width: 1110px;
+    padding-top: 100px;
+    line-height: 26.25px;
+}
+
+.video_title h2,
+.video_title p {
+    margin: 0;
+    padding:0;
+    width: 540px;
+    margin: 0 auto;
+}
+
+.video_title h2 {
+    padding-bottom: 50px;
+    line-height: 26.25px;
+}
+
+.video_img {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.play {
+    padding-top: 470px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute
+}
+
+/* =================================================== */
+
+.gallary_list-case {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallary_item {
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    padding-top: 25%;
+    position: relative;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(52, 84, 122,0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.icon-Vector {
+    font-size: 50px;
+    Position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.gradient:hover {
+    opacity: 1;
+    animation: fade 0.5s linear forwards;
+}
+
+/* =================================================== */
+
+.clients {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 70px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =================================================== */
+
+.form-case {
+    height: 760px;
+    background-color: #EEEFF1;
+}
+
+.form {
+    padding: 0;
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_title {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.form_title p {
+    padding-top: 50px;
+
+}
+
+.form_title h2,
+.form_title p{
+    margin: 0;
+}
+
+.person_inf {
+    padding-top: 65px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.person_inf p,
+.form_case p {
+    color: #5F5D5D; 
+    margin: 0;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.name_inp {
+    padding: 0;
+    width: 255px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.message {
+    width: 100%;
+    height: 175px;
+    padding: 20px 0 175px 20px;
+}
+
+.form_button {
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* =================================================== */
+
+.footer-case{
+    height: 151px;
+    background-color: #34547A;
+}
+
+.footer_{
+    height: 100%;
+    margin: 0 auto;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_soc_btn {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer_soc_btn a {
+    text-decoration: none;
+    padding: 11px;
+}
+
+.footer_ h3 {
+    color: #ffff;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.footer_ p {
+    color: #ffff;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+@media (max-width: 1149.98px) {
+
+    .numbers-case {
+        flex-wrap: wrap;
+    }
+
+    .video_section-case {
+        height: 700px;
+    }
+
+    .video_title{
+        width: 100%;
+    }
+
+    .video_img {
+
+        width: 60%;
+        
+    }
+
+    .play {
+        padding-top: 320px;
+    }
+
+    .skills {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .skill-list {
+        margin: 0 auto;
+      }
+
+    .skills_face {
+        margin: 0 auto;
+        padding: 100px 15px 100px 0;
+    }
+
+    .clients {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .clients a {
+        margin:0 auto; 
+    }
+
+    .footer_{
+        width: 60%;
+    }
+
+    .first_screen_menu {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .logo {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .section_bar {
+        padding-top: 10px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #EEEFF1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .first_screen {
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        position: relative;
+        width: 520px;
+        text-align: center;
+    }
+
+    .frame {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 5px;
+        width: 250px;
+    }
+    
+    .first_screen_btn {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 990.98px) {
+
+    .header {
+        height: 720px;
+    }
+
+    .menu ul {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu_list li {
+        padding-top: 10px;
+    }
+
+    .menu_list a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .play {
+        padding-top: 280px;
+    }
+
+}
+
+@media (max-width: 599.98px) {
+
+    .first_screen {
+        width: 90%;
+        text-align: center;
+    }
+
+    .first_screen h1{
+        line-height: 1;
+    }
+
+    .about_me {
+        width: 90%;
+    }
+
+    .skills_face {
+        width: 90%;
+    }
+
+    .video_title p {
+        width: 90%;
+    }
+
+    .btn_play {
+        width: 60%;
+        padding-top: 0px;
+    }
+
+    .microsoft {
+        width: 90%;
+    }
+
+   .form {
+        width: 90%;
+    }
+    
+    .name_inp {
+        width: 90%;
+    }
+    
+    .footer_ {
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer_ h3{  
+        margin: 0;
+    }
+
+    .form_button {
+        margin-top: 20px;
+       
+    }
+
+    .skill-list {
+        width: 90%;
+      }
+
+}
